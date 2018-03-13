@@ -7,7 +7,7 @@ createTestCafe('localhost', 1337, 1338)
         runner = testcafe.createRunner();
         runner
             .src('tests/adfly.js')
-            .browsers('chrome:headless')
+            .browsers('firefox:headless')
             .run()
             .then(failedCount => {
                 /* ... */
@@ -26,8 +26,8 @@ createTestCafe('localhost', 1337, 1338)
     })
     .then(remoteConnection => {
          /* ... */
-        console.log('return remoteConnection')
-        console.log(remoteConnection);
-        testcafe.close();
-        process.exit(0);
+        //console.log('return remoteConnection')
+        //console.log(remoteConnection);
+        //testcafe.close();
+        //process.exit(0);
     });
