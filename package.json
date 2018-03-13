@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "runner": "testcafe tests/adfly.js",
-    "postinstall" : "node variables.js"
+    "postinstall": "node variables.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/multivoltage/cliker#readme",
   "dependencies": {
+    "my-ip": "^1.1.1",
     "testcafe": "^0.19.1"
   }
 }
