@@ -25,6 +25,8 @@
   "homepage": "https://github.com/multivoltage/cliker#readme",
   "dependencies": {
     "my-ip": "^1.1.1",
-    "testcafe": "^0.19.1"
+    "shelljs": "^0.8.1",
+    "testcafe": "^0.19.1",
+    "tor-control": "0.0.2"
   }
 }
