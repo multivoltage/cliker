@@ -1,0 +1,29 @@
+{
+  "name": "cliker",
+  "version": "0.0.1",
+  "description": "experimental testcafe with tor network tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runner": "testcafe tests/adfly.js",
+    "postinstall" : "node variables.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multivoltage/cliker.git"
+  },
+  "keywords": [
+    "testcafe",
+    "tor",
+    "bot"
+  ],
+  "author": "Diego Tonini <diego.tonini93@gmail.com> (https://github.com/multivoltage)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multivoltage/cliker/issues"
+  },
+  "homepage": "https://github.com/multivoltage/cliker#readme",
+  "dependencies": {
+    "testcafe": "^0.19.1"
+  }
+}
