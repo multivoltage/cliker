@@ -24,7 +24,7 @@ function isTorBrowserDownloaded(){
   // Run external tool synchronously
   console.log('try to download tor browser from '+TOR_BROWSER_WGET_URL);
   // we run get and save file inside ./tor folder of this project
-  if (shell.exec('wget '+TOR_BROWSER_WGET_URL+' tor').code !== 0) {
+  if (shell.exec('wget '+TOR_BROWSER_WGET_URL+' -P ./tor').code !== 0) {
     console.log('cannot download tor browser correctly. Check connection or valid url');
     shell.exit(1);
     return false;
