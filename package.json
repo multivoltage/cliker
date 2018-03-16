@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "runner": "testcafe tests/adfly.js",
+    "setup": "node ./tor/setup.js",
     "postinstall": "node variables.js"
   },
   "repository": {
