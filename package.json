@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "runner": "testcafe tests/adfly.js",
     "setup": "node ./tor/setup.js",
+    "start": "node ./tor/run.js",
     "postinstall": "node variables.js"
   },
   "repository": {

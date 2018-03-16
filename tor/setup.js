@@ -58,7 +58,7 @@ function isAllToolsAvailable(){
 
 function isTorCorrectlyExtracted(path){
   console.log('I am extracting tor browser into folder');
-  if (shell.exec('tar xf '+filename_tor_browser).code !== 0) {
+  if (shell.exec('tar xf ./tor/'+filename_tor_browser+' -C ./tor').code !== 0) {
     console.log('cannot execute tar xf of tor/'+filename_tor_browser);
     shell.exit(1);
     return false;
